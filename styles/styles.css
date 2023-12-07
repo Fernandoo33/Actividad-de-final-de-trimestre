@@ -1,0 +1,91 @@
+
+body {
+    background-image: linear-gradient(2deg, rgb(181, 159, 159) 0%, rgb(96, 82, 82) 100%);
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background-color:black;
+    font-size: 45px;
+    height: 250px;
+    padding: 8%;
+    background-position-y: 22%;
+    background-size:cover;
+    position: relative;
+    background-image: url("../images/estopa.jpg");
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+}
+
+.hero-text {
+    text-align: center;
+    color: black;
+    left: 28px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+@media only screen and (min-width:720px) {
+
+    h3 {
+        text-align: center;
+    }
+
+#seccion1 {
+    width: 31%;
+    float: left;
+    text-align: justify;
+}
+
+#seccion2 {
+    width: 35%;
+    float: right;
+    text-align: justify;
+}
+
+#seccion3 {
+    width: 28%;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    margin-top: 1%;
+    margin-left: 36%;
+    width:200px;
+    height:70px;
+    background-color: purple;
+    border-style:ridge;
+    color:lightgrey;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    cursor: pointer;
+    position: relative;
+    
+}
+
+
+footer {
+    text-align: center;
+    height: 0px; 
+    width:100%; 
+    bottom:0; 
+    left:0; 
+    color: beige;
+    background-color: #fff;
+}
+
+iframe {
+    width: 98%;
+}
+#hr1 {
+    height: 0px;
+    width: 100%;
+    bottom: 0;
+}
+}
+
